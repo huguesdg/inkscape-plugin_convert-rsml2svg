@@ -22,5 +22,7 @@ The plugin has been tested on Inkscape 1.1.
 
 ## About
 Author: Hugues De Gernier
+
 Creation year: 2014
+
 Last modification: 2025-05-02
