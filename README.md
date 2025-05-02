@@ -18,7 +18,7 @@ The RootNav software (http://sourceforge.net/projects/rootnav/) is used to semi-
 - Click "Apply". The roots will be displayed as SVG paths.
 
 ## Version compatibility
-The plugin has been tested on Inkscape 1.1.
+The plugin has been tested on Inkscape 1.1 with RSML files produced by RootNav 1.8.1.
 
 ## About
 Author: Hugues De Gernier
