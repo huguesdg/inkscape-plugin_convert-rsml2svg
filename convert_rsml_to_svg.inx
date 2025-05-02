@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Convert RSML to SVG</_name>
+    <id>HDG.convert_rsml_to_svg</id>
+    <dependency type="executable" location="extensions">convert_rsml_to_svg.py</dependency>
+    <dependency type="executable" location="extensions">inkex.py</dependency>
+    <dependency type="executable" location="extensions">simplestyle.py</dependency>
+    <dependency type="executable" location="extensions">simpletransform.py</dependency>
+    <param name="workingDirectory"  type="string"   _gui-text="Working directory"></param>
+    <param name="file"              type="string"   _gui-text="RSML file"></param>
+    <param name="resolution"        type="float"    _gui-text="Pictures resolution (pixels/mm)" precision="2" min="0.10" max="9999">15.75</param>
+    <effect needs-live-preview="false">
+        <object-type>path</object-type>
+        <effects-menu>
+            <submenu _name="Root system architecture"/>
+        </effects-menu>
+    </effect>
+    <script>
+        <command reldir="extensions" interpreter="python">convert_rsml_to_svg.py</command>
+    </script>
+</inkscape-extension>
